@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image: url(car\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#clockcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(9, 179, 217);
+    backdrop-filter: blur(5px);
+    width: 100%;
+}

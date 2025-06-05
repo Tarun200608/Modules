@@ -1,0 +1,35 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cityinput{
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: white;
+
+}
+button{
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsla(120, 95%, 31%, 0.729);
+    font-weight: bold;
+}
+.card{
+    background-color: hsla(180, 82%, 47%, 0.729);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.citydisplay{
+    font-size: 3rem;
+}

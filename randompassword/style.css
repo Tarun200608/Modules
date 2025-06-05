@@ -1,0 +1,48 @@
+input{
+    border: none;
+}
+body{
+    background-color: rgba(243, 229, 226, 0.922);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 161, 255);
+    height: 500px;
+    width: 500px;
+    border-radius: 16px;
+    box-shadow: 3px 5px 3px 1px;
+}
+.box{
+    border: 2px solid black;
+    width: 280px;
+    height: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 9px;
+    background-color: rgb(233, 230, 215);
+    position: absolute;
+}
+#btn{
+    margin: 35px;
+    background-color: rgb(229, 233, 233);
+    font-size: 15px;
+    padding: 8px 15px;
+}
+#passwd{
+    font-size: 28px;
+    margin: 10px;
+}
+h1{
+    margin-bottom: 120px;
+    font-size: 40px;
+    position: relative;
+}

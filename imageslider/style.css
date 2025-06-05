@@ -1,0 +1,30 @@
+.slider{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.slides img{
+    width: 100%;
+    display: none;
+}
+img.displayslide{
+    display: block;
+}
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: hsla(0, 0%, 0%, 0.314);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 100px;
+}
+.prev{
+    left: 0%;
+}
+.next{
+    right: 0%;
+}
